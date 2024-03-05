@@ -1,0 +1,23 @@
+body {
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0.2rem;
+  padding: 0.6rem;
+  width: 6rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: rgb(144, 220, 253);
+}
