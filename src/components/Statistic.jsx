@@ -1,9 +1,13 @@
+import StatisticLine from "./StatisticLine";
+
 const Statistic = (props) => {
   return (
     <section>
-      <p>
-        {props.text}: <span>{props.value}</span> {props.text2}
-      </p>
+      <StatisticLine
+        text={props.text}
+        text2={props.text2}
+        value={props.value}
+      />
     </section>
   );
 };

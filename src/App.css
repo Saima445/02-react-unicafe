@@ -1,9 +1,13 @@
 body {
   font-family: monospace;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 1rem;
 }
 
 h1 {
   text-align: center;
+  letter-spacing: 0.2rem;
 }
 .buttons {
   display: flex;
