@@ -23,6 +23,23 @@ const App = () => {
     }
   };
 
+  const show = () => {
+    if (all === 0) {
+      return <p>No feedback given</p>;
+    } else {
+      return (
+        <>
+          <Statistic value={good} text="good" />
+          <Statistic value={neutral} text="neutral" />
+          <Statistic value={bad} text="bad" />
+          <Statistic value={all} text="all" />
+          <Statistic value={average()} text="average" />
+          <Statistic value={positivePercentage()} text="positive" text2="%" />
+        </>
+      );
+    }
+  };
+
   return (
     <>
       <h1>Give feedback</h1>
@@ -32,12 +49,7 @@ const App = () => {
         <Button handleClick={() => setBad(bad + 1)} text="bad" />
       </section>
       <h2>Statistics</h2>
-      <Statistic value={good} text="good" />
-      <Statistic value={neutral} text="neutral" />
-      <Statistic value={bad} text="bad" />
-      <Statistic value={all} text="all" />
-      <Statistic value={average()} text="average" />
-      <Statistic value={positivePercentage()} text="positive" text2="%" />
+      {show()}
       {/* <p>good {good}</p>
       <p>neutral {neutral}</p>
       <p>bad {bad}</p>
