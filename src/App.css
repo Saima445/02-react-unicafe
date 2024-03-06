@@ -23,5 +23,15 @@ button {
 }
 
 button:hover {
-  background-color: rgb(144, 220, 253);
+  background-color: rgb(169, 220, 241);
+}
+
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.tdvalues {
+  text-align: center;
+  width: 3rem;
 }
