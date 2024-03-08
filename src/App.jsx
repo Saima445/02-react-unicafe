@@ -36,66 +36,6 @@ const App = () => {
           average={average()}
           positive={positivePercentage()}
         />
-        // <>
-        //   <Statistic value={good} text="good" />
-        //   <Statistic value={neutral} text="neutral" />
-        //   <Statistic value={bad} text="bad" />
-        //   <Statistic value={all} text="all" />
-        //   <Statistic value={average()} text="average" />
-        //   <Statistic value={positivePercentage()} text="positive" text2="%" />
-        // </>
-        // <table>
-        //   <tbody>
-        //     <tr>
-        //       <td>
-        //         <Statistic text="Good" />
-        //       </td>
-        //       <td>
-        //         <Statistic value={good} />
-        //       </td>
-        //     </tr>
-        //     <tr>
-        //       <td>
-        //         <Statistic text="Neutral" />
-        //       </td>
-        //       <td>
-        //         <Statistic value={neutral} />
-        //       </td>
-        //     </tr>
-        //     <tr>
-        //       <td>
-        //         <Statistic text="Bad" />
-        //       </td>
-        //       <td>
-        //         <Statistic value={bad} />
-        //       </td>
-        //     </tr>
-        //     <tr>
-        //       <td>
-        //         <Statistic text="All" />
-        //       </td>
-        //       <td>
-        //         <Statistic value={all} />
-        //       </td>
-        //     </tr>
-        //     <tr>
-        //       <td>
-        //         <Statistic text="Average" />
-        //       </td>
-        //       <td>
-        //         <Statistic value={average()} />
-        //       </td>
-        //     </tr>
-        //     <tr>
-        //       <td>
-        //         <Statistic text="Positive" />
-        //       </td>
-        //       <td>
-        //         <Statistic value={positivePercentage()} text2="%" />
-        //       </td>
-        //     </tr>
-        //   </tbody>
-        // </table>
       );
     }
   };

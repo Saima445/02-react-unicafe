@@ -12,13 +12,6 @@ const Statistic = ({ good, neutral, bad, all, average, positive }) => {
         <StatisticLine text="Positive" text2="%" value={positive} />
       </tbody>
     </table>
-    // <section>
-    //   <StatisticLine
-    //     text={props.text}
-    //     text2={props.text2}
-    //     value={props.value}
-    //   />
-    // </section>
   );
 };
 

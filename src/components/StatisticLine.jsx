@@ -6,9 +6,6 @@ const StatisticLine = (props) => {
         {props.value} {props.text2}
       </td>
     </tr>
-    // <p>
-    //   {props.text} <span>{props.value}</span> {props.text2}
-    // </p>
   );
 };
 export default StatisticLine;
